@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aheriez portfolio</title>
+  <meta name="description" content="Portfolio hub for aheriez's osu! related projects and tools.">
+  <meta property="og:title" content="aheriez portfolio">
+  <meta property="og:description" content="A hub linking to osu! tools, social apps, and experiments by aheriez.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=22">
+</head>
+<body>
+  <header class="topnav" id="home">
+    <div class="topnav-inner">
+      <a href="#home" class="brand" aria-label="aheriez home">
+        <img
+          src="https://a.ppy.sh/9632648"
+          alt=""
+          class="brand-logo"
+          width="40"
+          height="40"
+        >
+        <span class="brand-text">aheriez</span>
+      </a>
+
+      <nav class="topnav-links" aria-label="primary">
+        <a href="#home" class="topnav-link">home</a>
+        <a href="#projects" class="topnav-link">projects</a>
+        <a href="#bots" class="topnav-link">bots</a>
+        <a href="#about" class="topnav-link">about</a>
+        <a href="#contact" class="topnav-link">contact</a>
+      </nav>
+
+      <div class="topnav-right">
+        <button class="menu-btn" id="menuBtn" aria-label="open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <a href="https://osu.ppy.sh/users/9632648" class="user-chip" target="_blank" rel="noopener">
+          <span class="user-name">soft kitten</span>
+          <img src="https://a.ppy.sh/9632648" alt="" class="user-avatar" width="36" height="36">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" hidden>
+    <nav class="mobile-nav">
+      <a href="#home">home</a>
+      <a href="#projects">projects</a>
+      <a href="#bots">bots</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </div>
+
+  <main class="layout">
+    <h1 class="visually-hidden">aheriez portfolio</h1>
+
+    <section class="feed" id="projects" aria-label="projects">
+      <div class="news-list" id="about">
+        <div class="news-list-row">
+          <div class="news-list-text">
+            <strong>hi, im aheriez</strong>
+            <p>i build stupid websites for fun + i enjoy when people laugh using the websites i create :)</p>
+            <p>(disclaimer !!) i use claude to code my projects and such (as obvious by the designs)</p>
+            <p>feel free to reach out for me if you have any ideas :3</p>
+          </div>
+        </div>
+      </div>
+
+      <article class="news-card">
+        <div class="news-body">
+          <div class="news-title-row">
+            <h2 class="news-title">
+              <a href="https://circle.aheriez.cafe" target="_blank" rel="noopener">circle e-friend finder</a>
+            </h2>
+            <span class="peak-chip">
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7L12 16.8 5.7 21 8 13.6 2 9h7.6L12 2z"/></svg>
+              4,000 peak users!
+            </span>
+          </div>
+          <p class="news-excerpt">
+            one of my stupid projects which somehow went viral on twitter. peaked at ~4000 users
+            before i archived the project due to getting too big.
+          </p>
+          <a href="https://circle.aheriez.cafe" target="_blank" rel="noopener" class="badge badge-archived">archived</a>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-body">
+          <h2 class="news-title">
+            <a href="https://deranker.aheriez.cafe" target="_blank" rel="noopener">deranker checker</a>
+          </h2>
+          <p class="news-excerpt">
+            clever tool to calculate an osu player’s scorev2 playcount
+          </p>
+          <a href="https://deranker.aheriez.cafe" target="_blank" rel="noopener" class="badge badge-live">live</a>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-body">
+          <h2 class="news-title">
+            <a href="https://compatability.aheriez.cafe" target="_blank" rel="noopener">ultimate compatibility test</a>
+          </h2>
+          <p class="news-excerpt">
+            compare two players and see how compatible they are &lt;3 or how incompatible idk
+          </p>
+          <a href="https://compatability.aheriez.cafe" target="_blank" rel="noopener" class="badge badge-live">live</a>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-body">
+          <h2 class="news-title">
+            <a href="https://toporbottom.aheriez.cafe" target="_blank" rel="noopener">top or bottom?</a>
+          </h2>
+          <p class="news-excerpt">
+            no comment
+          </p>
+          <a href="https://toporbottom.aheriez.cafe" target="_blank" rel="noopener" class="badge badge-live">live</a>
+        </div>
+      </article>
+
+      <section class="bots" id="bots" aria-label="discord CLANKERS">
+        <div class="bots-heading">
+          <span class="bots-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5L4 8V6l8 5 8-5v2z"/></svg>
+          </span>
+          <h2 class="bots-title">discord CLANKERS</h2>
+        </div>
+
+        <article class="news-card bot-card">
+          <div class="news-body">
+            <div class="bot-top">
+              <img
+                class="bot-avatar"
+                src="https://cdn.discordapp.com/avatars/1526548898473054339/254631cd137a79ece0e13c3af54dbb3e.png?size=128"
+                alt=""
+                width="48"
+                height="48"
+              >
+              <div class="bot-copy">
+                <div class="news-title-row">
+                  <h3 class="news-title">puppy bot</h3>
+                  <span class="peak-chip">
+                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7L12 16.8 5.7 21 8 13.6 2 9h7.6L12 2z"/></svg>
+                    200 users
+                  </span>
+                </div>
+                <p class="news-excerpt">stats bot for mccisland for the gamemode battle box arena.</p>
+                <a
+                  class="bot-add"
+                  href="https://discord.com/oauth2/authorize?client_id=1526548898473054339"
+                  target="_blank"
+                  rel="noopener"
+                >add the bot</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card bot-card">
+          <div class="news-body">
+            <div class="bot-top">
+              <img
+                class="bot-avatar"
+                src="https://cdn.discordapp.com/avatars/1567013691738558464/4ca1ec66d59c8733cafdc3200d57c313.png?size=128"
+                alt=""
+                width="48"
+                height="48"
+              >
+              <div class="bot-copy">
+                <div class="news-title-row">
+                  <h3 class="news-title">celybi</h3>
+                  <span class="peak-chip">
+                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7L12 16.8 5.7 21 8 13.6 2 9h7.6L12 2z"/></svg>
+                    10 users
+                  </span>
+                </div>
+                <p class="news-excerpt">osu! gacha helper. used to calculate next cheapest bp upgrades, alerts for quicksold items, and more!</p>
+                <a
+                  class="bot-add"
+                  href="https://discord.com/oauth2/authorize?client_id=1567013691738558464"
+                  target="_blank"
+                  rel="noopener"
+                >add the bot</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <aside class="sidebar" id="contact">
+      <div class="panel stats-panel">
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat-value">4</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">~4k</span>
+            <span class="stat-label">Peak users</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-stack">
+        <a href="https://osu.ppy.sh/users/9632648" class="cta cta-teal" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 3.5a2 2 0 110 4 2 2 0 010-4zm0 13.2a7.4 7.4 0 01-5.3-2.2 1.2 1.2 0 01-.2-1.4c.7-1.4 2.7-2.2 5.5-2.2s4.8.8 5.5 2.2c.2.5.1 1-.2 1.4A7.4 7.4 0 0112 18.7z"/></svg>
+          osu! profile
+        </a>
+        <a href="https://x.com/aherieznya" class="cta cta-pink" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.829L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          follow on x
+        </a>
+        <div class="cta cta-orange cta-static" title="discord: aheriez">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5L4 8V6l8 5 8-5v2z"/></svg>
+          discord: aheriez
+        </div>
+      </div>
+
+      <div class="panel list-panel">
+        <h3 class="panel-heading">Featured</h3>
+        <ul class="mini-list">
+          <li>
+            <a href="https://discord.com/oauth2/authorize?client_id=1526548898473054339" target="_blank" rel="noopener" class="mini-item">
+              <span class="mini-meta">
+                <span class="mini-title">puppy bot</span>
+                <span class="mini-sub">bba stats · 200 users</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://discord.com/oauth2/authorize?client_id=1567013691738558464" target="_blank" rel="noopener" class="mini-item">
+              <span class="mini-meta">
+                <span class="mini-title">celybi</span>
+                <span class="mini-sub">osu! gacha helper · 10 users</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://deranker.aheriez.cafe" target="_blank" rel="noopener" class="mini-item">
+              <span class="mini-meta">
+                <span class="mini-title">deranker checker</span>
+                <span class="mini-sub">scorev2 playcount tool</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p class="side-foot">made with care (and claude), 2026</p>
+
+      <div class="mascot">
+        <div class="mascot-person">
+          <div class="speech" id="speechMine" aria-live="polite">hi celybi</div>
+          <a
+            class="mascot-link"
+            href="https://osu.ppy.sh/users/9632648"
+            target="_blank"
+            rel="noopener"
+            aria-label="soft kitten osu profile"
+          >
+            <img
+              class="mascot-avatar"
+              src="https://a.ppy.sh/9632648"
+              alt=""
+              width="72"
+              height="72"
+            >
+          </a>
+        </div>
+        <div class="mascot-person">
+          <div class="speech" id="speechTheirs" aria-live="polite">&gt;rs</div>
+          <a
+            class="mascot-link"
+            href="https://osu.ppy.sh/users/12742221"
+            target="_blank"
+            rel="noopener"
+            aria-label="celybi osu profile"
+          >
+            <img
+              class="mascot-avatar"
+              src="https://a.ppy.sh/12742221"
+              alt=""
+              width="72"
+              height="72"
+            >
+          </a>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>
